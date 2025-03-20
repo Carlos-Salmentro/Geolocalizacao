@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|c:\\users\\carlo\\onedrive\\\u00E1rea de trabalho\\arquivos\\programa\u00E7\u00E3o\\solucoes\\projeto_geo\\projeto_geo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|c:\\users\\carlo\\onedrive\\\u00E1rea de trabalho\\arquivos\\programa\u00E7\u00E3o\\solucoes\\projeto_geo\\projeto_geo\\projeto_geo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|solutionrelative:projeto_geo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|c:\\users\\carlo\\onedrive\\\u00E1rea de trabalho\\arquivos\\programa\u00E7\u00E3o\\solucoes\\projeto_geo\\projeto_geo\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|solutionrelative:repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|c:\\users\\carlo\\onedrive\\\u00E1rea de trabalho\\arquivos\\programa\u00E7\u00E3o\\solucoes\\projeto_geo\\projeto_geo\\domain\\basedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|solutionrelative:domain\\basedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|c:\\users\\carlo\\onedrive\\\u00E1rea de trabalho\\arquivos\\programa\u00E7\u00E3o\\solucoes\\projeto_geo\\projeto_geo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B40472E4-DD5B-421C-8477-C94016472EDD}|Projeto_Geo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +35,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Projeto_Geo.csproj",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Projeto_Geo.csproj",
+              "RelativeDocumentMoniker": "Projeto_Geo.csproj",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Projeto_Geo.csproj",
+              "RelativeToolTip": "Projeto_Geo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T15:31:14.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseDados.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Domain\\BaseDados.cs",
+              "RelativeDocumentMoniker": "Domain\\BaseDados.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Domain\\BaseDados.cs",
+              "RelativeToolTip": "Domain\\BaseDados.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:39:04.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:19:26.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:19:26.921Z"
             },
             {
               "$type": "Document",
@@ -45,7 +77,7 @@
               "RelativeDocumentMoniker": "Repository\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\\u00C1rea de Trabalho\\Arquivos\\Programa\u00E7\u00E3o\\Solucoes\\Projeto_Geo\\Projeto_Geo\\Repository\\AppDbContext.cs",
               "RelativeToolTip": "Repository\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T15:04:54.106Z"
             }

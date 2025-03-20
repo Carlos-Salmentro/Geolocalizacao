@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto_Geo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c42abe4e10ab067363f9330c1cdb0971c82a006c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto_Geo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto_Geo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
