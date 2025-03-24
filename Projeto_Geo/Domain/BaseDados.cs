@@ -92,8 +92,11 @@ namespace Projeto_Geo.Domain
         [Required]
         public double DistCenM { get; set; }
 
-        [Column("cdlog_cem")]
+        [Column("dist_cen_d")]
         [Required]
+        public double DistCenD { get; set; }
+
+        [Column("cdlog_cem")]
         public string CdlogCem { get; set; }
 
         [Column("nome_concat")]
@@ -101,7 +104,7 @@ namespace Projeto_Geo.Domain
 
         public BaseDados(){ }
 
-        public BaseDados(int id, double lenght, int dir, string municipio, string distrito, string? bairro, string? nomeSigla, string tipo, string? nomeTit, string? nomePrep, string nome, string? startLeft, string? endLeft, string? startRight, string? endRight, int parity, int? leftZip, int? rightZip, int? cepE, int? cepD, int extensaoM, string nomeCaps, string? onibusMsp, double distCenM, string cdlogCem, string? nomeConcat)
+        public BaseDados(int id, double lenght, int dir, string municipio, string distrito, string? bairro, string? nomeSigla, string tipo, string? nomeTit, string? nomePrep, string nome, string? startLeft, string? endLeft, string? startRight, string? endRight, int parity, int? leftZip, int? rightZip, int? cepE, int? cepD, int extensaoM, string nomeCaps, string? onibusMsp, double distCenM, double distCenD, string cdlogCem)
         {
             Id = id;
             Lenght = lenght;
@@ -127,6 +130,7 @@ namespace Projeto_Geo.Domain
             NomeCaps = nomeCaps;
             OnibusMsp = string.IsNullOrEmpty(onibusMsp) ? false : true;
             DistCenM = distCenM;
+            DistCenD = distCenD;
             CdlogCem = cdlogCem;
             NomeConcat = tipo + " " + nomeTit + " " + NomePrep + " " + Nome;
         }

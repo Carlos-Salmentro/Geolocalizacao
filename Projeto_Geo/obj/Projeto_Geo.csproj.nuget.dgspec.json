@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[8.0.14, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.3, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.3, )"

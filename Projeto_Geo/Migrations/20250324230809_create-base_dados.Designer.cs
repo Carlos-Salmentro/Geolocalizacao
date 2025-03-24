@@ -12,8 +12,8 @@ using Projeto_Geo.Repository;
 namespace Projeto_Geo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250320150438_CriandoTabelaBaseDados")]
-    partial class CriandoTabelaBaseDados
+    [Migration("20250324230809_create-base_dados")]
+    partial class createbase_dados
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,6 +54,10 @@ namespace Projeto_Geo.Migrations
                     b.Property<int>("Dir")
                         .HasColumnType("int")
                         .HasColumnName("dir");
+
+                    b.Property<double>("DistCenD")
+                        .HasColumnType("double")
+                        .HasColumnName("dist_cen_d");
 
                     b.Property<double>("DistCenM")
                         .HasColumnType("double")

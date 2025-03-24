@@ -52,6 +52,10 @@ namespace Projeto_Geo.Migrations
                         .HasColumnType("int")
                         .HasColumnName("dir");
 
+                    b.Property<double>("DistCenD")
+                        .HasColumnType("double")
+                        .HasColumnName("dist_cen_d");
+
                     b.Property<double>("DistCenM")
                         .HasColumnType("double")
                         .HasColumnName("dist_cen_m");
