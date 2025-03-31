@@ -12,8 +12,8 @@ using Projeto_Geo.Repository;
 namespace Projeto_Geo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250324230809_create-base_dados")]
-    partial class createbase_dados
+    [Migration("20250331180547_base_dados")]
+    partial class base_dados
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,19 +43,19 @@ namespace Projeto_Geo.Migrations
                         .HasColumnType("longtext")
                         .HasColumnName("cdlog_cem");
 
-                    b.Property<int?>("CepD")
-                        .HasColumnType("int")
+                    b.Property<string>("CepD")
+                        .HasColumnType("longtext")
                         .HasColumnName("cep_d");
 
-                    b.Property<int?>("CepE")
-                        .HasColumnType("int")
+                    b.Property<string>("CepE")
+                        .HasColumnType("longtext")
                         .HasColumnName("cep_e");
 
                     b.Property<int>("Dir")
                         .HasColumnType("int")
                         .HasColumnName("dir");
 
-                    b.Property<double>("DistCenD")
+                    b.Property<double?>("DistCenD")
                         .HasColumnType("double")
                         .HasColumnName("dist_cen_d");
 
@@ -104,6 +104,7 @@ namespace Projeto_Geo.Migrations
                         .HasColumnName("nome_caps");
 
                     b.Property<string>("NomeConcat")
+                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("nome_concat");
 

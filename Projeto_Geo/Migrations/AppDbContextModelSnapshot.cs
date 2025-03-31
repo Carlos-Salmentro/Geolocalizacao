@@ -40,19 +40,19 @@ namespace Projeto_Geo.Migrations
                         .HasColumnType("longtext")
                         .HasColumnName("cdlog_cem");
 
-                    b.Property<int?>("CepD")
-                        .HasColumnType("int")
+                    b.Property<string>("CepD")
+                        .HasColumnType("longtext")
                         .HasColumnName("cep_d");
 
-                    b.Property<int?>("CepE")
-                        .HasColumnType("int")
+                    b.Property<string>("CepE")
+                        .HasColumnType("longtext")
                         .HasColumnName("cep_e");
 
                     b.Property<int>("Dir")
                         .HasColumnType("int")
                         .HasColumnName("dir");
 
-                    b.Property<double>("DistCenD")
+                    b.Property<double?>("DistCenD")
                         .HasColumnType("double")
                         .HasColumnName("dist_cen_d");
 
@@ -101,6 +101,7 @@ namespace Projeto_Geo.Migrations
                         .HasColumnName("nome_caps");
 
                     b.Property<string>("NomeConcat")
+                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("nome_concat");
 

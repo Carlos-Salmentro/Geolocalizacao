@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Projeto_Geo.Migrations
 {
     /// <inheritdoc />
-    public partial class createbase_dados : Migration
+    public partial class base_dados : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -49,17 +49,19 @@ namespace Projeto_Geo.Migrations
                     parity = table.Column<int>(type: "int", nullable: false),
                     left_zip = table.Column<int>(type: "int", nullable: true),
                     right_zip = table.Column<int>(type: "int", nullable: true),
-                    cep_e = table.Column<int>(type: "int", nullable: true),
-                    cep_d = table.Column<int>(type: "int", nullable: true),
+                    cep_e = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    cep_d = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     extensao_m = table.Column<int>(type: "int", nullable: false),
                     nome_caps = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     onibus_msp = table.Column<bool>(type: "tinyint(1)", nullable: true),
                     dist_cen_m = table.Column<double>(type: "double", nullable: false),
-                    dist_cen_d = table.Column<double>(type: "double", nullable: false),
+                    dist_cen_d = table.Column<double>(type: "double", nullable: true),
                     cdlog_cem = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    nome_concat = table.Column<string>(type: "longtext", nullable: true)
+                    nome_concat = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>

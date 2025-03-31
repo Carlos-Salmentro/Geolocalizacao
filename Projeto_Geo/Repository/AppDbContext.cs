@@ -12,7 +12,7 @@ namespace Projeto_Geo.Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<BaseDados>().HasKey(x => x.Id);
+           modelBuilder.Entity<BaseDados>().HasKey(x => x.Id);
         }
 
         

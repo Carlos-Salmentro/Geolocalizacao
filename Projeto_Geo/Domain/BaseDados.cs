@@ -72,10 +72,10 @@ namespace Projeto_Geo.Domain
         public int? RightZip { get; set; }
 
         [Column("cep_e")]
-        public int? CepE { get; set; }
+        public string? CepE { get; set; }
 
         [Column("cep_d")]
-        public int? CepD { get; set; }
+        public string? CepD { get; set; }
 
         [Column("extensao_m")]
         [Required]
@@ -93,46 +93,45 @@ namespace Projeto_Geo.Domain
         public double DistCenM { get; set; }
 
         [Column("dist_cen_d")]
-        [Required]
-        public double DistCenD { get; set; }
+        public double? DistCenD { get; set; }
 
         [Column("cdlog_cem")]
         public string CdlogCem { get; set; }
 
         [Column("nome_concat")]
-        public string? NomeConcat { get; set; }
+        public string NomeConcat { get; set; }
 
         public BaseDados(){ }
 
-        public BaseDados(int id, double lenght, int dir, string municipio, string distrito, string? bairro, string? nomeSigla, string tipo, string? nomeTit, string? nomePrep, string nome, string? startLeft, string? endLeft, string? startRight, string? endRight, int parity, int? leftZip, int? rightZip, int? cepE, int? cepD, int extensaoM, string nomeCaps, string? onibusMsp, double distCenM, double distCenD, string cdlogCem)
+        public BaseDados(int id, double lenght, int dir, string municipio, string distrito, string? bairro, string? nomeSigla, string tipo, string? nomeTit, string? nomePrep, string nome, string? startLeft, string? endLeft, string? startRight, string? endRight, int parity, int? leftZip, int? rightZip, string? cepE, string? cepD, int extensaoM, string nomeCaps, string? onibusMsp, double distCenM, double? distCenD, string cdlogCem)
         {
             Id = id;
             Lenght = lenght;
             Dir = dir;
-            Municipio = municipio;
-            Distrito = distrito;
-            Bairro = bairro;
-            NomeSigla = nomeSigla;
-            Tipo = tipo;
-            NomeTit = nomeTit;
-            NomePrep = nomePrep;
-            Nome = nome;
-            StartLeft = startLeft;
-            EndLeft = endLeft;
-            StartRight = startRight;
-            EndRight = endRight;
+            Municipio = municipio.Trim();
+            Distrito = distrito.Trim();
+            Bairro = bairro.Trim();
+            NomeSigla = nomeSigla.Trim();
+            Tipo = tipo.Trim();
+            NomeTit = nomeTit.Trim();
+            NomePrep = nomePrep.Trim();
+            Nome = nome.Trim();
+            StartLeft = startLeft.Trim();
+            EndLeft = endLeft.Trim();
+            StartRight = startRight.Trim();
+            EndRight = endRight.Trim();
             Parity = parity;
             LeftZip = leftZip;
             RightZip = rightZip;
             CepE = cepE;
             CepD = cepD;
             ExtensaoM = extensaoM;
-            NomeCaps = nomeCaps;
+            NomeCaps = nomeCaps.Trim();
             OnibusMsp = string.IsNullOrEmpty(onibusMsp) ? false : true;
             DistCenM = distCenM;
             DistCenD = distCenD;
             CdlogCem = cdlogCem;
-            NomeConcat = tipo + " " + nomeTit + " " + NomePrep + " " + Nome;
+            NomeConcat = $"{tipo.Trim()} {nomeTit.Trim()} {nomePrep.Trim()} {nome.Trim()}";
         }
     }
 }
